@@ -1,0 +1,3 @@
+old_testing
+build/*
+!build/picoeca.uf2
