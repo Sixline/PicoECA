@@ -4,7 +4,7 @@ This will read the frequency(Ethanol %) and low pulse time(C Temp) of a standard
 
 Uses the PIO for CANBUS, using this library: https://github.com/KevinOConnor/can2040
 
-![Wiring Diagram.png](https://github.com/Sixline/PicoECA/blob/71ae7225f77051bbaef352438d7cf7f6980a8dbd/Wiring%20Diagram.png)
+![Wiring Diagram.png](https://github.com/Sixline/PicoECA/blob/31fcc2172cd30a571ddddda284e793472f792b68/Wiring%20Diagram.png)
 
 Tested with:
 * VDO / CONTINENTAL SE1004S or GM 13577429. Connector for the sensor is a Delphi 13511132. Cheap connectors on AliExpress work great.
@@ -13,7 +13,7 @@ Tested with:
 
 Total cost was around $100.
 
-![Completed Module.png](https://github.com/Sixline/PicoECA/blob/71ae7225f77051bbaef352438d7cf7f6980a8dbd/Completed%20Module.png)
+![Completed Module.png](https://github.com/Sixline/PicoECA/blob/31fcc2172cd30a571ddddda284e793472f792b68/Completed%20Module.png)
 
 ```
 Output Ethanol Content: % (Frequency Hz - 50)
