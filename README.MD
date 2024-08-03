@@ -1,8 +1,10 @@
 # Pico Ethanol Content Analyzer - Raspberry Pi Pico/RP2040
 
-This will read the frequency(Ethanol %) and low pulse time(C Temp) of a standard GM Ethanol content sensor, print it to USB serial, and then transmit a CANBUS message. CANBUS message format can be set to whatever. Default is set to mirror the Zeitronix format.
+This will read the frequency(Ethanol %) and low pulse time(C Temp) of a standard GM Ethanol content sensor, print it to USB serial, and then transmit a CANBUS message.
 
 Uses the PIO for CANBUS, using this library: https://github.com/KevinOConnor/can2040
+
+CANBUS message format can be set to whatever. Default is set to mirror the Zeitronix format. It will transmit 50% Ethanol, max temperature, and a faulted sensor state for any error condition. The error conditions being a disconnected or failed sensor, too low of a frequency(below 0%), and too high of a frequency(above 100%).
 
 ![Wiring Diagram.png](https://github.com/Sixline/PicoECA/blob/31fcc2172cd30a571ddddda284e793472f792b68/Wiring%20Diagram.png)
 
